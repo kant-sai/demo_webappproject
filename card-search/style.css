@@ -1,0 +1,27 @@
+body {
+    
+    background: #0c2755;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #3A3F52;
+}
+
+#searchedCardList > li {
+    cursor: default;
+    transition: background-color .1s;
+    
+}
+
+#searchedCardList > li:hover {
+   background-color: #D3D3D3;
+}
+
+#searchBar {
+    margin-top: 15px;
+}
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63552280-1"></script>
+
+        <script>
+
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag(){dataLayer.push(arguments);}
+
+            gtag('js', new Date());
+
+
+
+            gtag('config', 'UA-63552280-1');
+
+        </script>
+
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+		<title>Yu-Gi-Oh! Card Maker</title>
+
+        <link rel="stylesheet" type="text/css" href="./css/Default-Theme.css" />
+
+		<link rel="stylesheet" type="text/css" href="./css/Style.css" />
+		<link rel="stylesheet" type="text/css" href="./css/navbar.css">
+
+
+
+        <link rel="icon" href="https://ygopro.org/wp-content/uploads/2013/06/cropped-ObelisktheTormentor-TF04-JP-VG-32x32.jpg" sizes="32x32">
+
+        <link rel="icon" href="https://ygopro.org/wp-content/uploads/2013/06/cropped-ObelisktheTormentor-TF04-JP-VG-192x192.jpg" sizes="192x192">
+
+        <link rel="apple-touch-icon-precomposed" href="https://ygopro.org/wp-content/uploads/2013/06/cropped-ObelisktheTormentor-TF04-JP-VG-180x180.jpg">
+
+        <meta name="msapplication-TileImage" content="https://ygopro.org/wp-content/uploads/2013/06/cropped-ObelisktheTormentor-TF04-JP-VG-270x270.jpg">
+
+
+
+        <meta name="description" content="Yu-Gi-Oh! Card Maker allows you to create realist looking custom Yu-Gi-Oh! cards. Latest templates including Pendulum, Link and Rush are available.">
+
+
+
+        <style>
+
+			/** Hide parts of the site based on whether JavaScript is available. */
+
+			/** This method should prevent issues with FOUT. */
+
+			.js-yes { display: none; }
+
+			.js .js-yes { display: block; }
+
+			.js .js-no { display: none; }
+
+		</style>
+
+		<script>
+
+		// Function which prevents the code from cluttering the global object.
+
+		(function(){
+
+			var html = document.getElementsByTagName("html")[0];
+
+			// Notify the html tag that JavaScript is available.
+
+			html.classList.add("js");
+
+			// Allow the user to select a theme.
+
+			var themes = /[\?&]theme=([^&#]*)/.exec(window.location.href);
+
+			if (themes){ html.classList.add(decodeURI(themes[1]).toLowerCase()); }
+
+			// Select a style by default.
+
+			else {html.classList.add("dusk");}
+
+		})();
+
+		</script>
+
+	</head>
+
+
+
+	<body lang="en">
+		
+		<!-- <header>
+			
+			
+
+			
+            <h2>If fonts do not load, refresh.</h2>
+
+		</header> -->
+
+		<div id="navigation">
+			<ul>
+				<li ><a  href="index.html">Home</a></li>
+				<li ><a href="card-search/card-search.html">Card Search</a></li>
+				<li ><a class="active-nav" href="card-maker.html">Card Maker</a></li>
+			</ul>
+	
+	
+		</div>
+
+
+
+
+		<article class="content">
+			
+			<div id="react-root" class="js-yes">
+
+				Waiting for JavaScript to load.
+
+			</div>
+
+			<div class="js-no">
+
+				JavaScript seems to be unavailable.
+
+			</div>
+
+		</article>
+
+		<footer>
+
+			<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+
+			<!-- <a href="https://neocardmaker.com/index.php">NCM Forum</a> |
+
+			<a href="https://forum.yugiohcardmaker.net/topic/372510-neo-new-card-maker-110/">YCM Forum</a> -->
+
+		</footer>
+
+		<script src="https://unpkg.com/react@16/umd/react.production.min"></script>
+
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min"></script>
+
+		<script src="https://unpkg.com/create-react-class@15.6.3/create-react-class.min"></script>
+
+		<script src="build/cardmaker.js"></script>
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+		
+	</body>
+
+</html>
+
