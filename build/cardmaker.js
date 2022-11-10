@@ -9398,7 +9398,7 @@ define('tcg/ygo/CardMaker',["react", "react-class", "./Card", "webfont", "./Chec
 
             let primaryButtons = [
 
-                e("button", { onClick: this.create, className: "ipsButton ipsButton_primary"}, "New Card"),
+                e("button", { onClick: this.create, className: "ipsButton ipsButton_primary"}, "Reset"),
 
                 e("button", { onClick: this.save, className: "ipsButton ipsButton_primary" }, "Save Card"),
 
