@@ -38,23 +38,28 @@
     height: 4.3em;
 }
 #header-centerer {
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
 div#navigation {
 
     float: right;
-    display: inline;
-    padding-right: 76%;
-
+    display: inline; 
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: auto; 
+    background-color: rgb(90, 90, 90);
     
+
     
 }
 #navigation ul {
 
     float: right;
     list-style-type: none;
+    width: 100%;
     padding: 0px;
     margin: 0;
 }
@@ -73,8 +78,8 @@ div#navigation {
     font-family: "Open Sans", sans-serif;
     font-size: 0.9em;
     letter-spacing: 0.03em;
-    height: 4.3em;
-    line-height: 4.3em;
+    height: 2.9em;
+    line-height: 2.9em;
     padding-left: 0.6em;
     padding-right: 0.6em;
     display: block;

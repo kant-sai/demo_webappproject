@@ -96,12 +96,14 @@ p a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .bordered {
     border: 1px solid #c0c0c0;
 }
 #copyright {
-    font-size: 0.8empx;
+    font-size: 0.8em;
     text-align: center;
     padding-right: 7px;
     color: #000000;
@@ -256,7 +258,7 @@ form {
 .footer-right ul li a:hover {
     text-decoration: underline;
 }
-/* #header {
+#header {
     width: 100%;
     font-size: 0.9em;
     height: 4.3em;
@@ -264,7 +266,7 @@ form {
 #header-centerer {
     width: 90%;
     margin: auto;
-} */
+}
 h1,
 h2,
 h3,
@@ -307,7 +309,7 @@ h1 {
 .home-box p {
     text-align: center;
 }
-/* img.bg {
+img.bg {
     min-height: 100%;
     min-width: 1024px;
     width: 100%;
@@ -316,7 +318,7 @@ h1 {
     top: 0;
     left: 0;
     z-index: -1;
-} */
+}
 
 .info {
     width: 90%;
@@ -373,10 +375,14 @@ h1 {
     padding-top: 3px;
 }
 
-/* #navigation {
-    float: right;
-    display: inline;
-    padding-left: 1em;
+#navigation {
+    float: center;
+    display: inline; 
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100%;
+    /* padding: auto;  */
+    background-color: rgb(90, 90, 90);
 }
 #navigation ul {
     color: #FFFFFF;
@@ -386,6 +392,7 @@ h1 {
     margin: 0;
 }
 #navigation ul li {
+    font-size: 24px;
     position: relative;
     padding: 0;
     margin: 0;
@@ -398,8 +405,8 @@ h1 {
     font-family: "Open Sans", sans-serif;
     font-size: 0.9em;
     letter-spacing: 0.03em;
-    height: 4.3em;
-    line-height: 4.3em;
+    height: 2.9em;
+    line-height: 2.9em;
     padding-left: 0.6em;
     padding-right: 0.6em;
     display: block;
@@ -409,9 +416,13 @@ h1 {
 }
 #navigation ul li a:hover {
     color: #FFFFFF !important;
-} */
+}
 #quote-by {
-    font-size: 30px;
+    margin-top: 20px;
+    font-size: 48px;
+    padding-top: 20px;
+    
+
 }
 #responsive-icon {
     display: none;
@@ -531,7 +542,7 @@ h1 {
     outline: 0;
 }
 
-/* @media screen and (max-width: 42em) {
+@media screen and (max-width: 42em) {
     .clear-mob {
         clear:both;
     }
@@ -688,7 +699,7 @@ h1 {
     #navigation ul ul li a:hover {
         color: #808080;
     }
-} */
+}
 
 /* Additional styles */
 
@@ -713,12 +724,12 @@ h1 {
     padding: 2em;
     padding-left: 5em;
 }
-/* #header {
+#header {
     position: fixed;
     left: 0;
     top: 0;
     z-index: 1000;
-} */
+}
 #box-h1 {
     text-align: center;
     font-size: 2.7em;
@@ -750,3 +761,9 @@ h1 {
     left: 0;
     z-index: -1;
 }
+
+.card-details {
+    font-size: 20px;
+    
+}
+

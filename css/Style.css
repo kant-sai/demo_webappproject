@@ -175,7 +175,7 @@ body > footer
 	left: 0;
 
 	right: 0;
-
+    
 	overflow: hidden;
 
 }
@@ -341,6 +341,7 @@ fieldset, input, select, textarea {
 	overflow: auto;
 
     width: 60%;
+    margin-top: 2%;
 
 }
 
@@ -355,6 +356,7 @@ fieldset, input, select, textarea {
 	overflow: hidden;
 
     width: 40%;
+    margin-top: 5%;
 
 }
 
@@ -373,6 +375,7 @@ fieldset, input, select, textarea {
 	max-height: 78%;
 
 	margin: 0 auto;
+    margin-bottom: 20px;
 
 	box-shadow: 0 2px 4px #000;
 

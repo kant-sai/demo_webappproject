@@ -25,3 +25,7 @@ header {
     margin-top: 15px;
 }
 
+.px-3 {
+    padding-right: 1rem!important;
+    padding-left: 3rem!important;
+}
